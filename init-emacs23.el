@@ -9,12 +9,12 @@
 ; (load "~/.emacs.d/powerline-major.el")
 
 ; git-blame
-(load "~/.emacs.d/git-blame.el")
-(require 'git-blame)
+; (load "~/.emacs.d/git-blame.el")
+; (require 'git-blame)
 
 ; yaml-mode
-(load "~/.emacs.d/yaml-mode/yaml-mode.el")
-(require 'yaml-mode)
+; (load "~/.emacs.d/yaml-mode/yaml-mode.el")
+; (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
 ; css-mode for less
@@ -34,9 +34,9 @@
 (add-to-list 'auto-mode-alist '("\\.gemspec$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
-(defun set-reindent-then-newline-and-indent ()
-  (interactive)
-  (local-set-key (kbd "RET") 'reindent-then-newline-and-indent))
+;(defun set-reindent-then-newline-and-indent ()
+;  (interactive)
+;  (local-set-key (kbd "RET") 'reindent-then-newline-and-indent))
 
 (add-hook 'ruby-mode-hook 'set-reindent-then-newline-and-indent)
 
@@ -54,7 +54,7 @@
 ; Editor Settings
 (setq default-tab-width 2) ; how many spaces should my tab be?
 (setq-default indent-tabs-mode nil)
-(global-hl-line-mode t) ; Highlight the current line
+; (global-hl-line-mode t) ; Highlight the current line
 ; (set-face-background 'hl-line "#EFEFEF") ; Customize highlight bg color
 (blink-cursor-mode t)
 (show-paren-mode t) ;; see the matching parens
@@ -78,15 +78,15 @@
 ; (add-to-list 'auto-mode-alist '("\\.html\\.erb\\'" . eruby-nxhtml-mumamo))
 
 ; Rinari
-(add-to-list 'load-path "~/.emacs.d/rinari")
-(require 'rinari)
-(setq rinari-tags-file-name "TAGS")
+; (add-to-list 'load-path "~/.emacs.d/rinari")
+; (require 'rinari)
+; (setq rinari-tags-file-name "TAGS")
 
 ;; rhtml-mode
-(add-to-list 'load-path "~/.emacs.d/rhtml")
-(require 'rhtml-mode)
-(add-hook 'rhtml-mode-hook
-    (lambda () (rinari-launch)))
+; (add-to-list 'load-path "~/.emacs.d/rhtml")
+; (require 'rhtml-mode)
+; (add-hook 'rhtml-mode-hook
+;    (lambda () (rinari-launch)))
 
 ; Color Theme
 (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0/")
