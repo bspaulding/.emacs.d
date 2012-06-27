@@ -17,4 +17,4 @@
 (set-default 'truncate-lines t)
 (setq ido-enable-flex-matching t)
 
-(server-start)
+; (server-start)
