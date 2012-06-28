@@ -17,4 +17,16 @@
 (set-default 'truncate-lines t)
 (setq ido-enable-flex-matching t)
 
+; start with blank buffer
+(setf inhibit-splash-screen t)
+(switch-to-buffer (get-buffer-create "empty"))
+(delete-other-windows)
+
+; Put autosave files in their place!
+(custom-set-variables
+  '(auto-save-file-name-transforms '((".*" "~/.emacs.d/autosaves/\\1" t)))
+  '(backup-directory-alist '((".*" . "~/.emacs.d/backups/"))))
+;; create the autosave dir if necessary, since emacs won't.
+(make-directory "~/.emacs.d/autosaves/" t)
+
 ; (server-start)
