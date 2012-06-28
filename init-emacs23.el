@@ -28,12 +28,6 @@
 (setq js-indent-level 2
       js2-basic-offset 2)
 
-; Ruby Mode
-(add-to-list 'auto-mode-alist '("\\.rake$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Rakefile$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.gemspec$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.ru$" . ruby-mode))
-(add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
 ;(defun set-reindent-then-newline-and-indent ()
 ;  (interactive)
 ;  (local-set-key (kbd "RET") 'reindent-then-newline-and-indent))
