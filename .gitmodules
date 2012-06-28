@@ -1,0 +1,3 @@
+[submodule "multiple-cursors.el"]
+	path = multiple-cursors.el
+	url = git://github.com/magnars/multiple-cursors.el.git
