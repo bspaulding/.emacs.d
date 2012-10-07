@@ -15,6 +15,12 @@
 (setq powerline-color1 "grey22")
 (setq powerline-color2 "grey40")
 
+; rhtml-mode
+(add-to-list 'load-path "~/.emacs.d/rhtml")
+(require 'rhtml-mode)
+(add-hook 'rhtml-mode-hook
+   (lambda () (rinari-launch)))
+
 ; color themes
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (load-theme 'zenburn t)
