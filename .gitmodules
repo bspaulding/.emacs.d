@@ -4,9 +4,6 @@
 [submodule "mark-multiple.el"]
 	path = mark-multiple.el
 	url = git://github.com/magnars/mark-multiple.el.git
-[submodule "vendor/emacs-powerline"]
-	path = vendor/emacs-powerline
-	url = git://github.com/jonathanchu/emacs-powerline.git
 [submodule "rhtml"]
 	path = rhtml
 	url = git://github.com/eschulte/rhtml.git
@@ -16,3 +13,6 @@
 [submodule "yaml-mode"]
 	path = yaml-mode
 	url = git://github.com/yoshiki/yaml-mode.git
+[submodule "vendor/emacs-powerline"]
+	path = vendor/emacs-powerline
+	url = git://github.com/jonathanchu/emacs-powerline.git
