@@ -13,3 +13,6 @@
 [submodule "rinari"]
 	path = rinari
 	url = git://github.com/eschulte/rinari.git
+[submodule "yaml-mode"]
+	path = yaml-mode
+	url = git://github.com/yoshiki/yaml-mode.git
