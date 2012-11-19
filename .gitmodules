@@ -7,3 +7,6 @@
 [submodule "vendor/emacs-powerline"]
 	path = vendor/emacs-powerline
 	url = git://github.com/jonathanchu/emacs-powerline.git
+[submodule "rhtml"]
+	path = rhtml
+	url = git://github.com/eschulte/rhtml.git
