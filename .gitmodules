@@ -13,6 +13,3 @@
 [submodule "yaml-mode"]
 	path = yaml-mode
 	url = git://github.com/yoshiki/yaml-mode.git
-[submodule "vendor/emacs-powerline"]
-	path = vendor/emacs-powerline
-	url = git://github.com/jonathanchu/emacs-powerline.git

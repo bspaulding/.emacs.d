@@ -7,14 +7,6 @@
 (global-linum-mode t)
 (setq linum-format "%d ")
 
-; powerline
-(add-to-list 'load-path "~/.emacs.d/vendor/emacs-powerline")
-(require 'cl)
-(require 'powerline)
-(setq powerline-arrow-shape 'arrow)
-(setq powerline-color1 "grey22")
-(setq powerline-color2 "grey40")
-
 ; rhtml-mode
 (add-to-list 'load-path "~/.emacs.d/rhtml")
 (require 'rhtml-mode)
