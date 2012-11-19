@@ -10,3 +10,6 @@
 [submodule "rhtml"]
 	path = rhtml
 	url = git://github.com/eschulte/rhtml.git
+[submodule "rinari"]
+	path = rinari
+	url = git://github.com/eschulte/rinari.git
