@@ -7,6 +7,10 @@
 (global-linum-mode t)
 (setq linum-format "%d ")
 
+; php-mode
+(add-to-list 'load-path "~/.emacs.d/php-mode")
+(require 'php-mode)
+
 ; rhtml-mode
 (add-to-list 'load-path "~/.emacs.d/rhtml")
 (require 'rhtml-mode)
