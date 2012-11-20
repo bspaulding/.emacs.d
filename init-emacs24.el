@@ -9,6 +9,8 @@
 (global-linum-mode)
 (setq linum-format "%d ")
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 ; php-mode
 (add-to-list 'load-path "~/.emacs.d/php-mode")
 (require 'php-mode)
