@@ -4,7 +4,9 @@
 (menu-bar-mode -1)
 (setq header-line-format mode-line-format mode-line-format nil)
 (ido-mode t)
-(global-linum-mode t)
+
+(require 'linum)
+(global-linum-mode)
 (setq linum-format "%d ")
 
 ; php-mode
