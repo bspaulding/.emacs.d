@@ -1,0 +1,8 @@
+SessionDesktop.el
+auto-save-list/*
+elpa/*
+eshell/*
+ido.last
+network-security.data
+projectile-bookmarks.eld
+tutorial/*
